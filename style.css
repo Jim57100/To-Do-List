@@ -1,0 +1,83 @@
+html, body{
+  background-image: url('img/bg1_1080x1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1080px;
+  max-width: 1920px;
+  min-width: 480px;
+
+  font-family: 'paper';
+}
+
+.container{
+  height: 100%;
+  text-align: center;
+}
+
+h1{
+  font-size: 3em !important;
+  color: white;
+}
+
+.btnList{
+  overflow: hidden;
+  float: right;
+}
+
+.header{
+  border : 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url('img/bg_380x200.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.tasks{
+  border : 1px solid black;
+  font-size: 12pt;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100%;
+}
+
+.taskList div span{
+  height: 100%;
+  float: left;
+}
+
+.taskList button{
+  float: right;
+  align-items: center;
+  
+}
+
+.add-item{
+  border : 1px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.input{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  size: 10vw;
+}
+
+.date{
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  float: left;
+}
+
+.clearBtn{
+  background-color: transparent;
+  border-style: none;
+  color: white;
+}
+
+@font-face{
+  font-family: 'paper';
+  src: url('fichiers/paper.min.css');
+}

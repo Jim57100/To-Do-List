@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS et Paper -->
+  <link href="fichiers/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fichiers/paper.min.css">
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+  <title>To do list Jim</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!--TITLE-->
+    <div class="row">
+      <div class="col-12">
+        <hr>
+        <h1 tabindex="0">My To Do List</h1>
+        <hr>
+      </div>
+    </div>
+
+    <!--HEADER-->
+    <div class="row d-flex justify-content-center mx-auto my-3">
+      <div class="col-12 p-0">
+        <div class="header mt-3 bg-info">
+          <button class='clearBtn float-right'><i class="fas fa-sync-alt"></i></button>
+          <p><span class='badge badge-primary badge-pill ml-5'>0</span></p>
+          <div class='date d-block ml-3'></div>
+        </div>
+      </div>
+    </div>
+    <!--To Do List-->
+    <div class='row d-flex justify-content-center mx-auto mb-0'>
+      <div class='tasks col-12'>
+          <div class='taskList d-flex flex-column'></div>
+      </div>
+    </div>
+    <!--INPUT-->
+    <div class='row d-flex justify-content-center mx-auto'>
+      <div class="add-item col-12">
+        <div class="input-group mt-1">
+          <input type="text" class="form-control" placeholder="my little task" aria-label="my little task" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="addBtn fas fa-plus-circle" type="button"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="fichiers/bootstrap.min.js"></script>
+  <script src='script.js'></script>
+</body>
+
+</html>
